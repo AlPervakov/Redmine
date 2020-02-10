@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 RUN apt-get -y update
 RUN apt-get -y install curl
 
-RUN curl -O https://raw.githubusercontent.com/AlPervakov/mytestRedmine/master/install.sh -O https://raw.githubusercontent.com/AlPervakov/mytestRedmine/master/start.sh
+RUN curl -O https://raw.githubusercontent.com/AlPervakov/Redmine/master/install.sh -O https://raw.githubusercontent.com/AlPervakov/Redmine/master/start.sh
 RUN chmod a+x /install.sh
 RUN chmod a+x /start.sh
 
