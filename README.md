@@ -1,6 +1,6 @@
 # Запуск Redmine
 
-Скопировать Dockerfile и запустить:
+Скопировать Dockerfile (https://raw.githubusercontent.com/AlPervakov/Redmine/master/Dockerfile) и запустить:
 
 ```sh
 $ docker build -t name:v .
