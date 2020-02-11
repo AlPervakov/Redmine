@@ -4,8 +4,8 @@ export DEBIAN_FRONTEND=noninteractive
 apt update
 apt install -y mysql-server
 
-echo '[mysqld]' > /etc/mysql/mysql.cnf
-echo 'bind-address = 0.0.0.0' > /etc/mysql/mysql.cnf
+echo '[mysqld]' >> /etc/mysql/mysql.cnf
+echo 'bind-address = 0.0.0.0' >> /etc/mysql/mysql.cnf
 
 service mysql start
 
