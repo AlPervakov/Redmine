@@ -12,6 +12,6 @@ $ docker run -d -p 80:80 name:v
 
 # Docker-compose
 
-![Структура файлов](https://raw.githubusercontent.com/AlPervakov/mytestRedmine/master/Code_MefvR11hRU.png)
+![Структура файлов](https://raw.githubusercontent.com/AlPervakov/mytestRedmine/master/Code_V50yNG5x2s.png)
 
 Redmine доступно на порту 8080
