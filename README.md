@@ -3,11 +3,11 @@
 Скопировать Dockerfile (https://raw.githubusercontent.com/AlPervakov/Redmine/master/Dockerfile) и запустить:
 
 ```sh
-$ docker build -t name:v .
+$ docker build -t name:tag .
 ```
 Запустить контейнер:
 ```sh
-$ docker run -d -p 80:80 name:v
+$ docker run -d -p 80:80 name:tag
 ```
 
 # Docker-compose
