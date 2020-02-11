@@ -11,4 +11,4 @@ service mysql start
 
 mysql -u root --execute="CREATE DATABASE redmine character SET utf8;"
 mysql -u root --execute="CREATE user 'redmine'@'%' IDENTIFIED BY 'redmine';"
-mysql -u root --execute="GRANT ALL privileges ON redmine.* TO 'alex'@'%';"
+mysql -u root --execute="GRANT ALL privileges ON redmine.* TO 'redmine'@'%';"
