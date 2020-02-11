@@ -19,7 +19,7 @@ svn co https://svn.redmine.org/redmine/branches/4.0-stable redmine
 # Download configuration files
 cd /tmp/
 curl -O https://raw.githubusercontent.com/AlPervakov/Redmine/master/nginx.conf
-curl -O https://raw.githubusercontent.com/AlPervakov/mytestRedmine/master/database.yml
+curl -O https://raw.githubusercontent.com/AlPervakov/Redmine/master/with_docker-compose/database.yml
 curl -O https://raw.githubusercontent.com/AlPervakov/Redmine/master/passenger.conf
 curl -O https://raw.githubusercontent.com/AlPervakov/Redmine/master/redmine
 
