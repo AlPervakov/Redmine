@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  db:
+    build: ./db
+    container_name: mysqlserv
+    restart: always
+
+  app:
+    build: ./app
+    container_name: redmineapp
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - "80:80"
+
+  web:
+    build: ./web
+    container_name: nginxproxy
+    restart: always
+    depends_on: 
+      - app
+    ports:
+      - "8080:8080"
